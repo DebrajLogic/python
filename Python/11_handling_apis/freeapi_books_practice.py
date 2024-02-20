@@ -26,4 +26,12 @@ def get_books():
         print('\n')
 
 
-get_books()
+def main():
+    try:
+        get_books()
+    except Exception as e:
+        print(e)
+
+
+if __name__ == '__main__':
+    main()
